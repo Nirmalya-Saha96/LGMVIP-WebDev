@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Dogspot</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+<button onclick="topUpFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+
+<section class="colored-section" id="title">
+
+    <div class="container-fluid ">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+          <a class="navbar-brand" href="">Dogspot</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+      </nav>
+
+
+  <!-- Title -->
+
+    <div class="col">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="true">
+           <div class="carousel-item  cap active ">
+
+              <div class="row-lg-3 ">
+                <h1 class="big-heading ">Meet new and interesting dogs nearby and get your favourite one.</h1>
+                <p class="p">One page promising to fill all your needs</p>
+                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+                <button type="button " class="btn btn-outline-light btn-lg download-button start-button"><i class="fab fa-learn-more"></i> Learn More</button>
+              </div>
+
+              <div class="row-lg-6">
+                <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+              </div>
+
+          </div>
+           <div class="carousel-item cap  ">
+                  <div class="row-lg-3">
+                   <h1 class="big-heading">Best in class service by professional trainers.</h1>
+                   <p class="p">We are there for you 24/7.</p>
+                   <button type="button " class="btn btn-outline-light btn-lg download-button start-button"><i class="fab fa-learn-more"></i>Learn More</button>
+                  </div>
+
+                  <div class="row-lg-6">
+                    <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+                  </div>
+           </div>
+          <a class=" " href="#testimonial-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon black-button"></span>
+          </a>
+          <a class=" " href="#testimonial-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon black-button"></span>
+          </a>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+  <!-- Features -->
+<section class="white-section" id="features">
+    <h1 class="welcome-dog">Welcome to Dogspot</h1>
+
+      <div class="skill-row">
+        <img class="skill-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC_5JDksP0EffMwgWCRzVqkigbZdBM_8WDdw&usqp=CAU" alt="Android">
+        <h3>Buying and Training</h3>
+        <p>This is the perfect place for buying and training of different types of dog.
+        We have all species and trainers trained in every aspects.</p>
+      </div>
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-check-circle fa-4x "></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it and will get a proper training guidance.</p>
+          <button type="button " class="btn btn-outline-dark btn-lg feature-button "> Learn More</button>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-bullseye fa-4x "></i>
+          <h3 class="feature-title">Elite Clientele</h3>
+          <p>We have all kinds of dogs, the greatest dogs house on town. To choose yours</p>
+          <button type="button " class="btn btn-outline-dark btn-lg feature-button "> Learn More</button>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-heart fa-4x " ></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back. We maintain this</p>
+          <button type="button " class="btn btn-outline-dark btn-lg feature-button "> Learn More</button>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <i class="icon fab fa-weixin fa-4x "></i>
+          <h3 class="feature-title">24 HR open to all.</h3>
+          <p>We are there to help you 24/7</p>
+          <button type="button " class="btn btn-outline-dark btn-lg feature-button "> Learn More</button>
+        </div>
+      </div>
+
+
+    </div>
+    <br />
+    <hr>
+</section>
+
+<!-- project -->
+<section id="projects">
+  <div class="album py-5 bg-light">
+    <div class="container">
+    <h1 class="fw-light">Project</h1>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWKX-sh80jtC5RXWp4AmTjxXo_ycOn3laLBg&usqp=CAU" alt="Dog-trainer"
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"></rect></svg>
+
+            <div class="card-body card-body-project">
+              <h1>Dog Trainer</h1>
+              <p class="card-text">Professional Trainers who are there to help your dogs to understand your command.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button " class="btn btn-outline-dark btn-lg project-button "> Learn More</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehzkKRhNaxgeXFQdEKJeJ4WGfbvJVnJnqog&usqp=CAU" alt="Dog-trainer"
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"></rect></svg>
+
+            <div class="card-body card-body-project">
+              <h1>Dog Family</h1>
+              <p class="card-text">Here your dog will be getting his freinds of neumerous species.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button " class="btn btn-outline-dark btn-lg project-button "> Learn More</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnFIRiE9SL-aEL1wuPHi6od-Fxkl8oOnAA-w&usqp=CAU" alt="Dog-trainer"
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#55595c"></rect></svg>
+
+            <div class="card-body  card-body-project">
+              <h1>Veterinarian</h1>
+              <p class="card-text">24/7 Veterinarian support in case of any emergency.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button " class="btn btn-outline-dark btn-lg project-button "> Learn More</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<br />
+<hr />
+
+<!-- ======= Pricing section ======= -->
+<section class="white-section" id="pricing">
+
+  <h2 class="section-heading">Pricing</h2>
+  <p>Simple and affordable price plans for your and your dog.</p>
+
+  <div class="row">
+
+    <div class="pricing-column col-lg-4 col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h3>Standard Plan</h3>
+        </div>
+        <div class="card-body">
+          <h2 class="price-text">Free</h2>
+          <p>Dog Family Support</p>
+          <p>Free Goodies</p>
+          <p>Unlimited App Usage</p>
+          <button type="button " class="btn btn-outline-dark btn-lg project-button "> Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-column col-lg-4 col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h3>Bussiness Plan</h3>
+        </div>
+        <div class="card-body">
+          <h2 class="price-text">$49 / mo</h2>
+          <p>Unlimited Matches</p>
+          <p>Dog Family Support</p>
+          <p>Dog Trainer</p>
+          <p>Unlimited App Usage</p>
+          <button type="button " class="btn btn-outline-dark btn-lg project-button "> Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing-column col-lg-4">
+      <div class="card">
+        <div class="card-header">
+          <h3>Premium Plan</h3>
+        </div>
+        <div class="card-body">
+          <h2 class="price-text">$99 / mo</h2>
+          <p>Pirority Listing</p>
+          <p>Unlimited Matches</p>
+          <p>Dog Family Support</p>
+          <p>Dof Trainer</p>
+          <p>Veterinarian</p>
+          <p>Unlimited App Usage</p>
+          <button type="button " class="btn btn-outline-dark btn-lg project-button "> Learn More</button>
+
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+  <br />
+  <hr />
+
+</section>
+
+<!-- ======= Vedo projects section ======= -->
+<section class="colored-section" id="vedio-projects">
+          <h2 class="section-heading">Vedio Projects</h2>
+          <iframe class="pad" width="560" height="500px" src="https://www.youtube.com/embed/9ihXq_WwiWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="pad" width="560" height="500px" src="https://www.youtube.com/embed/6cuAJo7pO7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+<br />
+<hr />
+
+   <!-- ======= Team Section ======= -->
+<section id="team" class="team section-bg">
+      <div class="container" >
+
+        <div class="section-title">
+          <h2 class="section-heading">Team</h2>
+          <p>Core team members of Dogspot</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member"  >
+              <div class="member-img">
+                <img src="images/me.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="social-icon fab fa-facebook-f"></i></a>
+                  <a href="https://www.linkedin.com/in/nirmalya-saha-625993201/">
+                      <i class="social-icon fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/Nirmalya-Saha96">
+                    <i class="social-icon fab fa-github"></i>
+                  </a>
+                  <a href="mailto:sahanirmalyo96@gmail.com">
+                    <i class="social-icon fas fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="member-info card-body-project">
+                <h4>Nirmalya Saha</h4>
+                <span>Creator</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member"  >
+              <div class="member-img">
+                <img src="images/me.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="social-icon fab fa-facebook-f"></i></a>
+                  <a href="https://www.linkedin.com/in/nirmalya-saha-625993201/">
+                      <i class="social-icon fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/Nirmalya-Saha96">
+                    <i class="social-icon fab fa-github"></i>
+                  </a>
+                  <a href="mailto:sahanirmalyo96@gmail.com">
+                    <i class="social-icon fas fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="member-info card-body-project">
+                <h4>Nirmalya Saha</h4>
+                <span>Creator</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member"  >
+              <div class="member-img">
+                <img src="images/me.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="social-icon fab fa-facebook-f"></i></a>
+                  <a href="https://www.linkedin.com/in/nirmalya-saha-625993201/">
+                      <i class="social-icon fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/Nirmalya-Saha96">
+                    <i class="social-icon fab fa-github"></i>
+                  </a>
+                  <a href="mailto:sahanirmalyo96@gmail.com">
+                    <i class="social-icon fas fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="member-info card-body-project">
+                <h4>Nirmalya Saha</h4>
+                <span>Creator</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member"  >
+              <div class="member-img">
+                <img src="images/me.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="social-icon fab fa-facebook-f"></i></a>
+                  <a href="https://www.linkedin.com/in/nirmalya-saha-625993201/">
+                      <i class="social-icon fab fa-linkedin"></i>
+                  </a>
+                  <a href="https://github.com/Nirmalya-Saha96">
+                    <i class="social-icon fab fa-github"></i>
+                  </a>
+                  <a href="mailto:sahanirmalyo96@gmail.com">
+                    <i class="social-icon fas fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="member-info card-body-project">
+                <h4>Nirmalya Saha</h4>
+                <span>Creator</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+</section><!-- End Team Section -->
+    <br />
+    <hr />
+
+<!-- Life at dogspot -->
+<section id="life">
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <h1 class="fw-light">Life At Dogspot</h1>
+        <div id="testimonial-carousell" class="carousel slide" data-ride="true">
+          <div class="carousel-inner" >
+            <div class="carousel-item active container-fluid">
+              <img class="skill-image im" src="images/dog-img.jpg" alt="dog-profile">
+            </div>
+            <div class="carousel-item  container-fluid">
+              <img class="skill-image im" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStCo-Wtt6iGM86HdkSb59Odlj2-neDg4e3wQ&usqp=CAU" alt="dog-profile">
+            </div>
+            <div class="carousel-item  container-fluid">
+              <img class="skill-image im" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNmOuISJo7p4EszePByrquKnoY9K2AqR7ZXw&usqp=CAU" alt="dog-profile">
+            </div>
+            <div class="carousel-item  container-fluid">
+              <img class="skill-image im" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu49QGFi892K4pum0YYbzXxMEqViPAaDcWbQ&usqp=CAU" alt="dog-profile">
+            </div>
+            <div class="carousel-item  container-fluid">
+              <img class="skill-image im" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtq_XN9x68K2gBnKhYWJUdIqW7b_9dinZwJQ&usqp=CAU" alt="dog-profile">
+            </div>
+            <div class="carousel-item container-fluid">
+              <img class="skill-image im" src="data:image/jpeg;base64,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" alt="lady-profile">
+            </div>
+
+          </div>
+          <a class="carousel-control-prev " href="#testimonial-carousell" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon black-button"></span>
+          </a>
+          <a class="carousel-control-next " href="#testimonial-carousell" role="button" data-slide="next">
+            <span class="carousel-control-next-icon black-button"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+</section>
+<br />
+<hr />
+<br />
+
+<!-- Newsletter signup -->
+<section class="white-section col-sec" id="newsletter">
+  <div class="container-form newsletter-container">
+  <form action="">
+
+    <div class="container-form">
+      <h2 class="section-heading">Newsletter Signup</h2>
+    </div>
+
+    <div class="container-form" >
+      <input type="text" style="width: 400px" placeholder="abc@example.com" name="mail" required>
+      <button type="button" class="btn btn-outline-dark btn-lg project-button ">Subscribe</button>
+    </div>
+
+ </form>
+   </div>
+
+</section>
+<hr>
+<br>
+
+<!-- ***** Blog Start ***** -->
+<section class="section" id="blog">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12">
+                   <div class="center-heading">
+                       <h2 class="section-heading">Blog</h2>
+                   </div>
+               </div>
+               <div class="offset-lg-3 col-lg-6">
+                   <div class="center-text">
+                       <p>Signup for the daily blog.</p>
+                   </div>
+               </div>
+           </div>
+
+           <div class="row">
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                   <div class="blog-post-thumb">
+                       <div class="img">
+                           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkzs63qpiA961-7f2J6PE9wATTzFNNsaQHIA&usqp=CAU" alt="Dog-blog">
+                       </div>
+                       <div class="blog-content">
+                           <h3>
+                               The Best Dog Beds for Puppies
+                           </h3>
+                           <div class="text">
+                              When puppies aren’t playing or eating, they are sleeping. Sleep is an important part of a puppy’s life because most growing occurs during this time. Also, a well-rested puppy is a healthy puppy. You want to make sure that your puppy is comfortable and has a bed to call his own.
+                           </div>
+                           <button type="button " class="btn btn-outline-dark btn-lg project-button "> Learn More</button>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                   <div class="blog-post-thumb">
+                       <div class="img">
+                           <img src="https://i.shgcdn.com/ef2bfbcb-b32b-4ceb-9143-7ada0c7982ae/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="">
+                       </div>
+                       <div class="blog-content">
+                           <h3>
+                               What To Do When Your Dog Breaks Their Nail
+                           </h3>
+                           <div class="text">
+                              With dog paws meeting everything from grass to rugged terrain, it only makes sense that their toenails take the hit at times. So what do you do when your dog breaks their nail?
+                           </div>
+                           <button type="button " class="btn btn-outline-dark btn-lg project-button "> Learn More</button>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-12">
+                   <div class="blog-post-thumb">
+                       <div class="img">
+                           <img src="https://i.shgcdn.com/c1f50308-9158-483f-984b-cf569a1e9117/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="">
+                       </div>
+                       <div class="blog-content">
+                           <h3>
+                               Can CBD Oil Help a Dog With Stress?
+                           </h3>
+                           <div class="text">
+                               There are many different factors that can result in an anxious or stressful dog. Can CBD oil help a stressed dog feel better?
+                           </div>
+                           <button type="button " class="btn btn-outline-dark btn-lg project-button "> Learn More</button>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+<hr />
+<br>
+<!-- ***** Blog End ***** -->
+
+
+<!-- Contact page -->
+<section id="contact" >
+    <div class="container-contact">
+      <div class="row">
+
+        <div class="column">
+          <img class="map" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRzFueoJUwtZ7Q-P4EUvWiRjM_yrsdH7jBBA&usqp=CAU" style="width:100%">
+        </div>
+
+        <div class="column">
+
+          <form class="form-contact" action="" style="width:50%">
+            <h2 class="section-heading">Contact</h2>
+            <p>Contact us for more queary:</p>
+            <label class="label-contact" for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label class="label-contact" for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label class="label-contact" for="lname">Email Address</label>
+            <input class="e" type="email" id="lname" name="abc@example.com" placeholder="abc@example.com.">
+            <label class="label-contact" for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+              <option value="India">India</option>
+            </select>
+            <label class="label-contact" for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+<hr>
+<br>
+
+</body>
+
+<!-- ======= Footer ======= -->
+<footer class="white-section" id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h3>Dogspot<span>.</span></h3>
+            <p>
+              35, Lawrence Street <br>
+              Verma Flats No C1/L<br>
+              West Bengal, India <br><br>
+            </p>
+          </div>
+
+          <div class="social-links text-center col-lg-4">
+            <a href="#" class="twitter"><i class="social-icon fab fa-linkedin"></i></a>
+            <a href="#" class="instagram"><i class="social-icon fab fa-facebook-f"></i></a>
+            <a href="https://github.com/Nirmalya-Saha96" class="google-plus"><i class="social-icon fab fa-github"></i></a>
+            <a href="mailto:sahanirmalyo96@gmail.com" class="linkedin"><i class="social-icon fas fa-envelope"></i></a>
+          </div>
+		  
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h3>Contact Us</h3>
+            <strong>Phone:</strong> +91 9674240883<br>
+            <strong>Email:</strong> sahanirmalyo96@gmail.com<br>
+          </div>
+		  <p style='margin: auto'>Copyright &copy; Nirmalya Saha</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- End Footer -->
+
+<script src="javascript/java.js">
+</script>
+
+
+</html>
